@@ -10,6 +10,10 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+- type: artstation
+  icon: "fa-brands fa-artstation"
+  url: "https://discover.luqmanr.xyz/luqmanr.artstation.com.html"
+
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true

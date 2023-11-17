@@ -2,7 +2,7 @@
 layout: post
 title:  "My First Post"
 author: sal
-categories: [ Jekyll, tutorial ]
+# categories: [ Jekyll, tutorial ]
 image: /assets/images/16.jpg
 ---
 

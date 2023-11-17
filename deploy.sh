@@ -9,7 +9,6 @@ jekyll build --config _config_selfhosted.yml
 rsync -auvr _site/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
 
 echo "[${DATE}]" > build.log
-jekyll build
 git add build.log _config.yml _posts/
 git commit -m "update log time, config, and posts"
 git push origin main

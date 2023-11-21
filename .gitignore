@@ -2,6 +2,8 @@
 .bundle
 vendor
 Gemfile.lock
+_drafts/
+*Zone.Identifier
 
 # Jekyll cache
 .jekyll-cache

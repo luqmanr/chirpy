@@ -19,7 +19,7 @@
 
 - type: artstation
   icon: "fa-brands fa-artstation"
-  url: "https://discover.luqmanr.xyz/luqmanr.artstation.com.html"
+  url: "https://discover.luqmanr.xyz/pages/external/luqmanr.artstation.com.html"
 
 - type: email
   icon: "fas fa-envelope"

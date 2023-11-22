@@ -3,6 +3,8 @@ layout: post
 title:  "Python Introduction - Indonesia"
 tags: [python, coding, tutorial]
 ---
+# NOTE
+tutorial ini masih akan diupdate, karena belum lengkap 😁
 
 # Pre-requisites
 1. Install python di komputer. Klik link berikut untuk tutorialnya

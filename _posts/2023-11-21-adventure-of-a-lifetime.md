@@ -14,7 +14,7 @@ This year has been an adventure of a lifetime. So last year in December, I got m
 
 Thank you for staying by my side. For trying so hard to be my friend. For cheering my heart when I need it.
 
-I don't want to say too many things, I'm afraid I might write too much and go off-track, but I just want to say, sometimes, I might not show it, but I really appreciate you, and I will try my best to do the same to you. I love you, always ❤️
+I don't want to say too many things, I might write too much and go off-track. But I just want to say, sometimes I might not show it, but I really appreciate you. I will try my best to do the same, if not more. I'm proud of you and I love you, always ❤️
 
 So here's some more pics of us so far!
 

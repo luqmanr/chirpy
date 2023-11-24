@@ -29,5 +29,10 @@ And perhaps I should record playing them again, if any of them are still availab
 22. Skate Sim
 
 # Title choices
+# honestly, it doesn't have to be interesting for the readers
+# you're writing this because you want to journal your thoughts first
+# if there's an audience for it, then that's secondary
 1. My Farming Sim Experience -> Harus dikerucutkan, what is the thesis here, and why it's important
-2. 
+2. Why I love God of War
+3. Divinity Original Sin 2, my experience
+4. I love Lego-style/crafting games. I wish had more time to play them!

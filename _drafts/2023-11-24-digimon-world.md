@@ -3,7 +3,7 @@ layout: post
 title:  "A Look Back at Digimon World"
 author: sal
 tags: [ digimon, videogame, nostalgia ]
-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDigimon_World&psig=AOvVaw0zSbAGjLIljF0no5-_sD84&ust=1701049627679000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiL2OjF4IIDFQAAAAAdAAAAABAh
+image: https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Digimon_World_gameplay.png/220px-Digimon_World_gameplay.png
 ---
 # Digimon World
 Work is so stressful and tiring. I'm always on the lookout for some music to ~~ease the pain~~ make the day and mood flow nicely, and my mind breezy.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Python Introduction - Indonesia"
 tags: [python, coding, tutorial]
-date: "2023-11-28"
+updated: "2023-11-28"
 ---
 # NOTE
 tutorial ini masih akan diupdate, karena belum lengkap 😁

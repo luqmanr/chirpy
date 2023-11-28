@@ -198,13 +198,13 @@ Dalam python, ada konsep tersebut, yaitu Classes.
 
 Syntax:
 ```python
-class <Name-of-Class>:
+class Name_of_Class:
     # write the methods & properties of this class here
     # it can contain functions (methods) & variables (properties)
     def __init__(self, <input-arguments>):
         self.<property-name> = <initial-value-of-property>
 
-    def <method-name>(self, <input-arguments>):
+    def method_name(self, <input-arguments>):
         # do something here
         ...
         return <output>

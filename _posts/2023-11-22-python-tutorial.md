@@ -191,7 +191,10 @@ output:
 
 # Terakhir, Classes
 Untuk konsep yang ini, paling mudah untuk kita mengumpamakan jika kita ingin memodelkan sebuah _object_ ke dalam sebuah program/code.
-Mengapa hal ini penting? Karena sebenarnya yang kita lakukan dalam menulis code, adalah mencoba untuk _mirror_ dunia nyata ke dalam bentuk code/program/digital. Bagaimana caranya kita bisa merepresentasikan sebuah keranjang belanja yang ingin di-_checkout_ oleh seorang _customer_ di aplikasi e-commerce. Atau bagaimana kita bisa mendengarkan music yang dimainkan live oleh sebuah band di negara yang berbeda, secara langsung lewat internet. Dalam python, ada konsep tersebut, yaitu Classes.
+
+Mengapa hal ini penting? Karena sebenarnya yang kita lakukan dalam menulis code, adalah mencoba untuk _mirror_ dunia nyata ke dalam bentuk code/program/digital. Bagaimana caranya kita bisa merepresentasikan sebuah keranjang belanja yang ingin di-_checkout_ oleh seorang _customer_ di aplikasi e-commerce. Atau bagaimana kita bisa mendengarkan music yang dimainkan live oleh sebuah band di negara yang berbeda, secara langsung lewat internet. 
+
+Dalam python, ada konsep tersebut, yaitu Classes.
 
 Syntax:
 ```python

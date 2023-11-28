@@ -260,8 +260,10 @@ dog cannot jump anymore!
 ```
 
 # Changelog
+
 ### 2023-11-28
 - added `while loops`
 - added `variables, functions, and classes`
+
 ### 2023-11-22
 - init first version of tutorial

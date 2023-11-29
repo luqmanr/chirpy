@@ -8,6 +8,7 @@ ruby:luqmanr.github.io \
     /bin/sh -c "git config \
         --global \
         --add safe.directory /home/luqmanr/workspace/personal/luqmanr.github.io; \
+        bundle; \
         bundle exec jekyll serve \
             -D \
             --watch \

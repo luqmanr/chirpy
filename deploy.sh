@@ -10,7 +10,7 @@ docker run --rm -it \
     -v `pwd`:`pwd` \
     -w `pwd` \
     ruby:luqmanr.github.io \
-        /bin/sh -c "git config --global --add safe.directory ${PWD}; bundle exec jekyll build --config _config_selfhosted.yml"
+        /bin/sh -c "git config --global --add safe.directory ${PWD}; bundle; bundle exec jekyll build --config _config_selfhosted.yml"
 rsync -chavzP --delete-after _site/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
 
 echo "[${DATE}]" > build.log

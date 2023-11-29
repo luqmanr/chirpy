@@ -1,7 +1,7 @@
 # FROM ruby:latest
 FROM ruby:3.2.2
 
-RUN apt-get install \
+RUN apt update; apt-get install -y \
     ruby-full \
     build-essential \
     zlib1g-dev
@@ -9,5 +9,3 @@ RUN apt-get install \
 RUN gem install \
     jekyll \
     bundler
-
-RUN bundle

@@ -152,7 +152,6 @@ Contoh, kalau dalam matematik, kita bisa menulis
 f(x) = mx + c
 # x adalah input
 # hasil akhir adalah (m*x) + c
-f(5)
 ```
 
 example:

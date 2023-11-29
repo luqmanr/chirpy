@@ -7,7 +7,7 @@ updated: "2023-11-28"
 # NOTE
 tutorial ini masih akan diupdate, karena belum lengkap 😁
 
-# Pre-requisites
+## Pre-requisites
 1. Install python di komputer. Klik link berikut untuk tutorialnya
 [Install python di Windows](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
 
@@ -15,7 +15,7 @@ tutorial ini masih akan diupdate, karena belum lengkap 😁
 
 3. Start coding!
 
-# Data Types
+## Data Types
 Di dalam bahasa pemrograman, ada banyak data types. Yang di awal perlu kita kenali ada beberapa.
 
 | Type      | Name |
@@ -24,7 +24,7 @@ Di dalam bahasa pemrograman, ada banyak data types. Yang di awal perlu kita kena
 | Numeric Types: | int, float |
 | Boolean Types: | bool |
 
-# Data Structures
+## Data Structures
 Kemudian ada juga konsep data structure, yang bisa kita umpamakan sebagai sebuah object yang berisikan data-data dari tabel di atas
 
 | Type      | Name |
@@ -33,10 +33,11 @@ Kemudian ada juga konsep data structure, yang bisa kita umpamakan sebagai sebuah
 | Mapping/Hashmap: | dictionary |
 | Set Types: | set |
 
-# Loops
+## Loops
 Loops, adalah sebuah mekanisme eksekusi program yang dilakukan berulang-ulang. Biasanya kita pakai untuk melakukan iterasi terhadap urutan data, atau kita ingin mengeksekusi sebuah program berkali-kali hingga kita mencapai kondisi tertentu.
 
-# For Loops
+## For Loops
+
 Syntax:
 ```python
 for <variable-name> in <data-to-iterate>:
@@ -75,6 +76,7 @@ ini dikarenakan dalam bahasa pemrograman, angka atau index dimulai dari angka `0
 sehingga jika kita tidak menyatakan index pertama untuk diiterasi, makan python by-default akan mulai dari `0`
 
 jika kita ingin mulai dari 1, kita bisa tuliskan seperti berikut
+
 ```python
 for x in range(1,5):
     print(x)
@@ -89,7 +91,8 @@ output:
 
 selain itu, angka `5` juga tidak muncul, karena memang by-default, behaviour fungsi `range()` adalah demikian. Seringkali disebut `for <n> non-inclusive`
 
-# While Loops
+## While Loops
+
 Syntax:
 ```python
 while <condition>:
@@ -115,10 +118,10 @@ output:
 # Variables, Functions, and Classes
 Di dalam bahasa python, sebagaimana programming language lainnya, ada beberapa konsep untuk me-_define_ data dan perintah-perintah yang bisa kita gunakan di dalam code kita berkali-kali.
 
-## Pertama ada `variables`
+## Pertama ada Variables
 
 Jika mengingat pelajar matematika, seringkali kita bisa menyimpan sebuah angka kepada sebuah variabel, contoh:
-```math
+```
 a = 1
 b = 2
 c = a+b
@@ -148,14 +151,14 @@ output:
 Balik lagi, sama seperti konsep matematik, di programming language ada konsep function. Function adalah sebuah code/algoritma yang kita _define_, dimana kita memasukkan sebuah _input_, dan akan mengembalikan sebuah _output_.
 
 Contoh, kalau dalam matematik, kita bisa menulis
-```math
+```
 f(x) = mx + c
 # x adalah input
 # hasil akhir adalah (m*x) + c
 ```
 
 example:
-```math
+```
 m = 10
 c = 3
 x = 6
@@ -165,7 +168,7 @@ f(6) = 10*6 + 3
 
 Jika kita implementasi dalam python, syntax seperti ini
 ```python
-def <function-name>(<input-arguments>):
+def function-name(<input-arguments>):
     # do something here
     ...
     return <output>
@@ -261,7 +264,9 @@ guk guk!
 dog cannot jump anymore!
 ```
 
-# Changelog
+## Changelog
+### 2023-11-29
+- fix some codeblocks not rendering properly
 
 ### 2023-11-28
 - added `while loops`

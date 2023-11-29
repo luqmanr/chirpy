@@ -1,4 +1,5 @@
-FROM ruby:latest
+# FROM ruby:latest
+FROM ruby:3.2.2
 
 RUN apt-get install \
     ruby-full \
@@ -8,3 +9,5 @@ RUN apt-get install \
 RUN gem install \
     jekyll \
     bundler
+
+RUN bundle

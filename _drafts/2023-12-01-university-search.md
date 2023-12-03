@@ -36,6 +36,10 @@ Duration: 12 Months
 https://www.mastersportal.com/search/master/computer-science-it/canada
 https://www.mastersportal.com/studies/365919/information-systems-bridge.html?ref=search_card -> https://connect.northeastern.edu/portal/lp?page=44052b10-f447-64dc-c4bf-1c80295b77b6
 https://www.centennialcollege.ca/programs-courses/full-time/internet-of-things
+https://www.mastersportal.com/studies/342696/cybersecurity-and-threat-management.html?ref=search_card
+https://www.mastersportal.com/studies/152918/project-management.html?ref=search_card
+https://www.mastersportal.com/studies/343462/software-and-information-systems-testing.html?ref=search_card
+
 
 ## Mental Notes
 - Magister courses typically last 12 months (full-time) or 24 months (part-time)

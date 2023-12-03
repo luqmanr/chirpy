@@ -39,7 +39,9 @@ https://www.centennialcollege.ca/programs-courses/full-time/internet-of-things
 https://www.mastersportal.com/studies/342696/cybersecurity-and-threat-management.html?ref=search_card
 https://www.mastersportal.com/studies/152918/project-management.html?ref=search_card
 https://www.mastersportal.com/studies/343462/software-and-information-systems-testing.html?ref=search_card
-
+https://www.mastersportal.com/studies/343371/information-security-management.html?ref=search_card
+https://www.mastersportal.com/studies/257507/interdisciplinary-studies.html?ref=search_card
+https://www.mastersportal.com/studies/343705/software-developer.html?ref=search_card
 
 ## Mental Notes
 - Magister courses typically last 12 months (full-time) or 24 months (part-time)

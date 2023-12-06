@@ -13,9 +13,7 @@ docker run --rm -it \
         /bin/sh -c "git config --global --add safe.directory ${PWD}; bundle; bundle exec jekyll build --config _config_selfhosted.yml"
 rsync -chavzP --delete-after _site/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
 
-mv _site/ blog/
-
 echo "[${DATE}]" > build.log
-git add build.log _config.yml _config_selfhosted.yml _posts/ blog/
+git add build.log _config.yml _config_selfhosted.yml _posts/
 git commit -m "update log time, config, and posts"
 git push origin main

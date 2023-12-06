@@ -16,7 +16,8 @@ docker run --rm -it \
         rm -r blog/; \
         mv _site/ blog/; \
         mkdir _site; \
-        mv blog/ _site/"
+        mv blog/ _site/; \
+        touch _site/index.html"
 rsync -chavzP --delete-after blog/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
 
 echo "[${DATE}]" > build.log

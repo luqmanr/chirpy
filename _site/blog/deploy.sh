@@ -17,7 +17,7 @@ docker run --rm -it \
         mkdir _site; \
         mv blog/ _site/; \
         touch _site/index.html"
-rsync -chavzP --delete-after blog/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
+rsync -chavzP --delete-after _site/blog/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
 
 echo "[${DATE}]" > build.log
 git add -f build.log _config.yml _config_selfhosted.yml _posts/ _site/

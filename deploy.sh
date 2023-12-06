@@ -21,7 +21,7 @@ docker run --rm -it \
 rsync -chavzP --delete-after blog/* ${HOST}:${DEPLOY_PATH}/${BASE_URL}
 
 echo "[${DATE}]" > build.log
-git add build.log _config.yml _config_selfhosted.yml _posts/ _site/
+git add -f build.log _config.yml _config_selfhosted.yml _posts/ _site/
 git commit -m "update log time, config, and posts"
 git push origin main
 

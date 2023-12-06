@@ -13,7 +13,6 @@ docker run --rm -it \
         /bin/sh -c "git config --global --add safe.directory ${PWD}; \
         bundle; \
         bundle exec jekyll build --config _config_selfhosted.yml; \
-        rm -r blog/; \
         mv _site/ blog/; \
         mkdir _site; \
         mv blog/ _site/; \

@@ -9,6 +9,16 @@ image: https://mqtt.org/assets/img/mqtt-logo-hor-neg.jpg
 This tutorial will use docker and docker compose commands. Also, use whatever IDE of your choice to write and deploy the codes below. Setting those up is beyond the scope of this tutorial, though I will mention my preferences throughout this blog post.
 
 # Setting Up The Hardware
+Hardware needed for this project are:
+- ESP8266 (w/ WiFi)
+- HC-SR04
+- Jumper Cables
+- Bread Board
+- Micro USB
+- PC / Laptop / Server w/ Docker installed
+- Network Router (You can use your home router or even your Phone in Hotspot mode)
+
+
 
 # Writing ESP8266 Code
 ## Reading From Ultrasonic Sensor

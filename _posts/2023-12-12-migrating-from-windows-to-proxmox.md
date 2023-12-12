@@ -2,7 +2,7 @@
 layout: post
 # title: 
 tags: [computer, proxmox, linux, windows]
-image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ90ImnCAA4OAcvrF1BY_rAqw-KkjqYnf11gxU9-NUk5BIfmptE5y_u2FUaLErq3w4h9M&usqp=CAU'
+image: 'https://images.spiceworks.com/wp-content/uploads/2023/01/03121747/Hypervisor-Functions.jpg'
 ---
 
 Finally, I'm switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent's house, I'm constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it's much simpler, and more importantly, no GUI related problems.

@@ -41,8 +41,8 @@
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Migrating From Windows To Proxmox" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Finally, I’m switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent’s house, I’m constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it’s much simpler, and more importantly, no GUI related problems." />
-<meta property="og:description" content="Finally, I’m switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent’s house, I’m constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it’s much simpler, and more importantly, no GUI related problems." />
+<meta name="description" content="2023-16-12 I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it)." />
+<meta property="og:description" content="2023-16-12 I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it)." />
 <link rel="canonical" href="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" />
 <meta property="og:url" content="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" />
 <meta property="og:site_name" content="luqmanr’s blog" />
@@ -54,7 +54,7 @@
 <meta property="twitter:title" content="Migrating From Windows To Proxmox" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-12T00:00:00+07:00","datePublished":"2023-12-12T00:00:00+07:00","description":"Finally, I’m switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent’s house, I’m constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it’s much simpler, and more importantly, no GUI related problems.","headline":"Migrating From Windows To Proxmox","image":"https://images.spiceworks.com/wp-content/uploads/2023/01/03121747/Hypervisor-Functions.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"},"url":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-16T11:29:19+07:00","datePublished":"2023-12-12T00:00:00+07:00","description":"2023-16-12 I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).","headline":"Migrating From Windows To Proxmox","image":"https://images.spiceworks.com/wp-content/uploads/2023/01/03121747/Hypervisor-Functions.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"},"url":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -559,6 +559,28 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -574,6 +596,17 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -638,6 +671,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1702700959"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Dec 16, 2023
+</time>
+
+        </span>
+      
 
       
         
@@ -685,9 +741,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="182 words"
+  title="374 words"
 >
-  <em>1 min</em> read</span>
+  <em>2 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -696,15 +752,31 @@
   </header>
 
   <div class="content">
-    <p>Finally, I’m switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent’s house, I’m constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it’s much simpler, and more importantly, no GUI related problems.</p>
+    <h2 id="2023-16-12"><span class="me-2">2023-16-12</span><a href="#2023-16-12" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).</p>
+
+<p>The first issue I had with proxmox was with networking (it’s still not perfect yet right now, but it works).
+I struggled to setup the system to use a single MAC address for connecting to my Mikrotik gateway/DHCP server.
+Started off with having another virtual MAC address, and that is assigned to <code class="language-plaintext highlighter-rouge">vmbr0</code>.
+But I didn’t want to have to manually configure Mikrotik to have 2 entries of MAC address to the same machine.</p>
+
+<p>So I used masquerading on the Proxmox interfaces config, so that every request from any guest VM/system on my proxmox VE, is then translated to use the MAC address of my physical NIC.</p>
+
+<p>I’m still having problems with portforwarding though, since I can’t figure out how to assign ports on <code class="language-plaintext highlighter-rouge">vmbr0</code>, to a guest VM’s port</p>
+
+<h2 id="2023-12-12"><span class="me-2">2023-12-12</span><a href="#2023-12-12" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Finally, I’m switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent’s house, I’m constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it’s much simpler, and more importantly, no GUI related problems.</p>
 
 <p>I’ve been looking around which Linux distribution I want to run, but then, I realized, it’s much better to just run a <em>Hypervisor</em>, so I won’t be bogged down by my would be choice of distribution. Any other services or apps I want to run that’s better on certain distributions (or easier to manage/install), then I will just create another VM.</p>
 
 <p>Obviously, there’s going to be some performance impact, and there’s sure to be problems (like the GPU partitioning or passthrough for gaming). But I want a new change, and want to explore these realms. Especially, I want to daily drive Linux instead of relying on Windows. So, here’s for change!</p>
 
 <h2 id="changelog"><span class="me-2">Changelog</span><a href="#changelog" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<h3 id="2023-12-12"><span class="me-2">2023-12-12</span><a href="#2023-12-12" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="2023-16-12-1"><span class="me-2">2023-16-12</span><a href="#2023-16-12-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
+  <li>sluggishly wrote things that came to mind, mostly about networking
+    <h3 id="2023-12-12-1"><span class="me-2">2023-12-12</span><a href="#2023-12-12-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
   <li>write what I’m doing for this post</li>
 </ul>
 
@@ -816,6 +888,13 @@
   <section id="access-lastmod">
     <h2 class="panel-heading">Recently Updated</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/blog/posts/migrating-from-windows-to-proxmox/">Migrating From Windows To Proxmox</a>
+        </li>
       
         
         

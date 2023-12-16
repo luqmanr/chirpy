@@ -4,7 +4,7 @@
   <id>https://discover.luqmanr.xyz/blog/</id>
   <title>luqmanr's blog</title>
   <subtitle>luqmanr's blog consists of luqman's thoughts, and things he wants to share with the world.</subtitle>
-  <updated>2023-12-16T11:19:35+07:00</updated>
+  <updated>2023-12-16T11:29:24+07:00</updated>
   <author>
     <name>luqmanr</name>
     <uri>https://discover.luqmanr.xyz/blog/</uri>
@@ -24,7 +24,7 @@
     <link href="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" rel="alternate" type="text/html" title="Migrating From Windows To Proxmox" />
     <published>2023-12-12T00:00:00+07:00</published>
   
-    <updated>2023-12-12T00:00:00+07:00</updated>
+    <updated>2023-12-16T11:29:19+07:00</updated>
   
     <id>https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/</id>
     <content src="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" />
@@ -44,9 +44,11 @@
 
 
 
-      Finally, I’m switching from primarily Windows, to Linux! Because I currently left my PC at my office / old bedroom / my parent’s house, I’m constantly remote-desktopping into it from my apartment. But remoting to a Windows machine is kind of annoying. I much prefer having access to servers via SSH as it’s much simpler, and more importantly, no GUI related problems.
+      2023-16-12
+I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).
 
-I’ve been looking around whi...
+The first issue I had with proxmox was with networking (it’s still not perfect yet right now, but it works).
+I struggled to setup the syste...
     </summary>
   
 

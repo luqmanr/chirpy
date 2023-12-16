@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://discover.luqmanr.xyz/blog/sitemap.xml

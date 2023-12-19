@@ -5,7 +5,7 @@ tags: [python, coding, tutorial]
 updated: "2023-11-28"
 ---
 # NOTE
-[Part 1]({% link _posts/2023-11-22-python-introduction-indonesia-part-1.md %})
+[Part 1]({% link _posts/2023-11-22-python-tutorial.md %})
 
 ## Changelog
 ### 2023-12-19

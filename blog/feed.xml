@@ -4,7 +4,7 @@
   <id>https://discover.luqmanr.xyz/blog/</id>
   <title>luqmanr's blog</title>
   <subtitle>luqmanr's blog consists of luqman's thoughts, and things he wants to share with the world.</subtitle>
-  <updated>2023-12-19T17:41:19+07:00</updated>
+  <updated>2023-12-19T17:42:43+07:00</updated>
   <author>
     <name>luqmanr</name>
     <uri>https://discover.luqmanr.xyz/blog/</uri>
@@ -97,13 +97,13 @@ I struggled to setup the syste...
   
   <entry>
     <title>Python Introduction - Indonesia</title>
-    <link href="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-1/" rel="alternate" type="text/html" title="Python Introduction - Indonesia" />
+    <link href="https://discover.luqmanr.xyz/blog/posts/python-tutorial/" rel="alternate" type="text/html" title="Python Introduction - Indonesia" />
     <published>2023-11-22T00:00:00+07:00</published>
   
-    <updated>2023-11-22T00:00:00+07:00</updated>
+    <updated>2023-12-19T17:40:58+07:00</updated>
   
-    <id>https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-1/</id>
-    <content src="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-1/" />
+    <id>https://discover.luqmanr.xyz/blog/posts/python-tutorial/</id>
+    <content src="https://discover.luqmanr.xyz/blog/posts/python-tutorial/" />
     <author>
       <name>luqmanr</name>
     </author>
@@ -122,6 +122,7 @@ I struggled to setup the syste...
 
       NOTE
 tutorial ini masih akan diupdate, karena belum lengkap 😁
+
 Part 2
 
 Pre-requisites
@@ -139,7 +140,7 @@ Install python di Windows
 
 
 Data Types
-Di dalam bahasa pemrograman, ada banyak data types. Yang di awal perlu kita ken...
+Di dalam bahasa pemrograman, ada banyak data types. Yang di awal perlu kita ke...
     </summary>
   
 

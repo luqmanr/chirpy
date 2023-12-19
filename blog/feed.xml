@@ -1,0 +1,189 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://discover.luqmanr.xyz/blog/</id>
+  <title>luqmanr's blog</title>
+  <subtitle>luqmanr's blog consists of luqman's thoughts, and things he wants to share with the world.</subtitle>
+  <updated>2023-12-19T17:41:19+07:00</updated>
+  <author>
+    <name>luqmanr</name>
+    <uri>https://discover.luqmanr.xyz/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://discover.luqmanr.xyz/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://discover.luqmanr.xyz/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 luqmanr </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Python Introduction - Indonesia - Part 2</title>
+    <link href="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/" rel="alternate" type="text/html" title="Python Introduction - Indonesia - Part 2" />
+    <published>2023-12-19T00:00:00+07:00</published>
+  
+    <updated>2023-12-19T00:00:00+07:00</updated>
+  
+    <id>https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/</id>
+    <content src="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/" />
+    <author>
+      <name>luqmanr</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      NOTE
+Part 1
+
+Changelog
+2023-12-19
+
+  
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Migrating From Windows To Proxmox</title>
+    <link href="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" rel="alternate" type="text/html" title="Migrating From Windows To Proxmox" />
+    <published>2023-12-12T00:00:00+07:00</published>
+  
+    <updated>2023-12-16T11:29:19+07:00</updated>
+  
+    <id>https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/</id>
+    <content src="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" />
+    <author>
+      <name>luqmanr</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      2023-16-12
+I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).
+
+The first issue I had with proxmox was with networking (it’s still not perfect yet right now, but it works).
+I struggled to setup the syste...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Python Introduction - Indonesia</title>
+    <link href="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-1/" rel="alternate" type="text/html" title="Python Introduction - Indonesia" />
+    <published>2023-11-22T00:00:00+07:00</published>
+  
+    <updated>2023-11-22T00:00:00+07:00</updated>
+  
+    <id>https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-1/</id>
+    <content src="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-1/" />
+    <author>
+      <name>luqmanr</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      NOTE
+tutorial ini masih akan diupdate, karena belum lengkap 😁
+Part 2
+
+Pre-requisites
+
+  
+    Install python di komputer. Klik link berikut untuk tutorialnya
+Install python di Windows
+  
+  
+    Install text/code editor. Saya sarankan pakai VSCode untuk yang paling lazim/populer
+  
+  
+    Start coding!
+  
+
+
+Data Types
+Di dalam bahasa pemrograman, ada banyak data types. Yang di awal perlu kita ken...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Adventure of a Lifetime</title>
+    <link href="https://discover.luqmanr.xyz/blog/posts/adventure-of-a-lifetime/" rel="alternate" type="text/html" title="Adventure of a Lifetime" />
+    <published>2023-11-21T00:00:00+07:00</published>
+  
+    <updated>2023-11-22T12:36:00+07:00</updated>
+  
+    <id>https://discover.luqmanr.xyz/blog/posts/adventure-of-a-lifetime/</id>
+    <content src="https://discover.luqmanr.xyz/blog/posts/adventure-of-a-lifetime/" />
+    <author>
+      <name>luqmanr</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I would like to start with
+the first post on my blog to be about my wife.
+
+This year has been an adventure of a lifetime. So last year in December, I got married to a woman named Ozy Sheila Rafsani. It has been so fun. We go to so many places, eat so many food, experience so many feelings, and learn so many things.
+
+
+
+Thank you for staying by my side. For trying so hard to be my friend. For che...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

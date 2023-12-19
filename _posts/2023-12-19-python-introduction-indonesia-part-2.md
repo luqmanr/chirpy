@@ -55,7 +55,6 @@ batas = 10
 >> 7 + 6 = 13
 >> 8 + 7 = 15
 >> 9 + 8 = 17
-
 ```
 
 ### 3. odd/even number logic
@@ -73,7 +72,6 @@ kata = "luqman"
 >> u
 >> m
 >> n
-
 ```
 
 

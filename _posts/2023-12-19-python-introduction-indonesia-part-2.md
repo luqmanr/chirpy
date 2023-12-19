@@ -115,6 +115,8 @@ Contoh, file sesimpel _.txt_, _.csv_ atau _.json_, bisa kita jadikan database. N
 Aplikasi adalah sebuah _layer_ yang digunakan oleh seorang _user_, untuk berinteraksi dengan sebuah _servis_. Nah, _servis_ ini bisa jadi menggunakan database, sehingga secara esensi, sebuah _user_ itu juga berinteraksi dengan _database_ (seperti contoh skenario marketplace di atas!)
 
 ## Changelog
+### 2023-12-20
+- tambah cerita tentang database, dan aplikasi
 ### 2023-12-19
 - added 3 simple exercises. Todo: example implementation
 - mulai cerita singkat untuk CRUD

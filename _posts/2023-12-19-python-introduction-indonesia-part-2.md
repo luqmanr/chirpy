@@ -76,6 +76,17 @@ kata = "luqman"
 
 ```
 
+
+## CRUD
+
+Nah, jadi kita sudah belajar banyak mengenai python, mulai dari syntax, konsep-konsep dasar, dan juga sedikit algoritma.
+
+Sekarang kita bisa mulai mengaplikasikan apa yang telah kita pelajari, untuk membuat sebuah aplikasi kita sendiri!
+
+Untuk itu, kita kenali konsep *CRUD*, _Create Read Update Delete_. CRUD secara esensial, adalah fundamental cara bekerja sebuah aplikasi.
+
+Katakan kita membuka aplikasi marketplace untuk berjualan. Pertama kita pasti diminta untuk membuat sebuah akun. Lalu setelah itu, kita akan login, dan bisa memasukkan data barang yang akan dijual. Tapi ternyata setelah memasukkan data barang, ada data yang salah, misalkan jumlah stok atau deskripsi yang salah, sehingga kita melakukan perubahan. Dan setelah stok habis, kita berhenti berjualan barang tersebut, sehingga kita menghapus listing barang itu dari marketplace.
+
 ## Changelog
 ### 2023-12-19
 - added 3 simple exercises. Todo: example implementation

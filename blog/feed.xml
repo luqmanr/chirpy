@@ -4,7 +4,7 @@
   <id>https://discover.luqmanr.xyz/blog/</id>
   <title>luqmanr's blog</title>
   <subtitle>luqmanr's blog consists of luqman's thoughts, and things he wants to share with the world.</subtitle>
-  <updated>2023-12-19T17:42:43+07:00</updated>
+  <updated>2023-12-19T19:05:48+07:00</updated>
   <author>
     <name>luqmanr</name>
     <uri>https://discover.luqmanr.xyz/blog/</uri>
@@ -24,7 +24,7 @@
     <link href="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/" rel="alternate" type="text/html" title="Python Introduction - Indonesia - Part 2" />
     <published>2023-12-19T00:00:00+07:00</published>
   
-    <updated>2023-12-19T00:00:00+07:00</updated>
+    <updated>2023-12-19T17:42:44+07:00</updated>
   
     <id>https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/</id>
     <content src="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/" />
@@ -44,15 +44,30 @@
 
 
 
-      NOTE
+      Previous Part
 Part 1
 
-Changelog
-2023-12-19
+Exercises
+Dalam post ini, saya akan kompilasikan beberapa coding exercises untuk belajar logic-logic sederhana
 
-  
+1. if else
+
+Question: 
+Jika ada dua bilangan bulat, kembalikan nilai perkalian keduanya jika hasilnya sama dengan atau lebih rendah dari 1000.
+Selain itu, kembalikan hasil penjumlahan mereka
+
+Contoh hasil:
+
+# Case 1
+a = 20
+b = 30
+
+&amp;gt;&amp;gt; 600
 
 
+# Case 2
+a = 40
+b...
     </summary>
   
 
@@ -96,11 +111,11 @@ I struggled to setup the syste...
 
   
   <entry>
-    <title>Python Introduction - Indonesia</title>
-    <link href="https://discover.luqmanr.xyz/blog/posts/python-tutorial/" rel="alternate" type="text/html" title="Python Introduction - Indonesia" />
+    <title>Python Introduction - Indonesia - Part 1</title>
+    <link href="https://discover.luqmanr.xyz/blog/posts/python-tutorial/" rel="alternate" type="text/html" title="Python Introduction - Indonesia - Part 1" />
     <published>2023-11-22T00:00:00+07:00</published>
   
-    <updated>2023-12-19T17:40:58+07:00</updated>
+    <updated>2023-12-19T17:42:44+07:00</updated>
   
     <id>https://discover.luqmanr.xyz/blog/posts/python-tutorial/</id>
     <content src="https://discover.luqmanr.xyz/blog/posts/python-tutorial/" />

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Introduction - Indonesia"
+title:  "Python Introduction - Indonesia - Part 1"
 tags: [python, coding, tutorial]
 updated: "2023-11-28"
 ---

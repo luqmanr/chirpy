@@ -48,7 +48,7 @@
 <meta property="twitter:title" content="Python Introduction - Indonesia - Part 2" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-19T20:52:38+07:00","datePublished":"2023-12-19T00:00:00+07:00","description":"Previous Part Part 1","headline":"Python Introduction - Indonesia - Part 2","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"},"url":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-20T05:42:06+07:00","datePublished":"2023-12-19T00:00:00+07:00","description":"Previous Part Part 1","headline":"Python Introduction - Indonesia - Part 2","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"},"url":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -472,6 +472,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -487,6 +498,83 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -596,13 +684,13 @@
 
 <time
   
-  data-ts="1702993958"
+  data-ts="1703025726"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 19, 2023
+  Dec 20, 2023
 </time>
 
         </span>
@@ -645,9 +733,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="375 words"
+  title="582 words"
 >
-  <em>2 min</em> read</span>
+  <em>3 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -771,11 +859,48 @@ kata = "luqman"
 
 <p>Katakan kita membuka aplikasi marketplace untuk berjualan. Pertama kita pasti diminta untuk membuat sebuah akun. Lalu setelah itu, kita akan login, dan bisa memasukkan data barang yang akan dijual. Tapi ternyata setelah memasukkan data barang, ada data yang salah, misalkan jumlah stok atau deskripsi yang salah, sehingga kita melakukan perubahan. Dan setelah stok habis, kita berhenti berjualan barang tersebut, sehingga kita menghapus listing barang itu dari marketplace.</p>
 
-<h2 id="changelog"><span class="me-2">Changelog</span><a href="#changelog" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<h3 id="2023-12-19"><span class="me-2">2023-12-19</span><a href="#2023-12-19" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Kalau kita lihat skenario di atas, kita bisa secara general, mengkategorikan case di atas menjadi CRUD</p>
+
+<h3 id="create"><span class="me-2">Create</span><a href="#create" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
+  <li>Membuat akun</li>
+  <li>membuat daftar produk baru
+    <h3 id="read"><span class="me-2">Read</span><a href="#read" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
+  <li>Login ke marketplace</li>
+  <li>menampilkan daftar produk
+    <h3 id="update"><span class="me-2">Update</span><a href="#update" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
+  <li>Mengubah data produk
+    <h3 id="delete"><span class="me-2">Delete</span><a href="#delete" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
+  <li>Menghapus daftar produk</li>
+</ul>
+
+<h2 id="mengenal-terms--concepts-yang-membantu"><span class="me-2">Mengenal Terms &amp; Concepts Yang Membantu</span><a href="#mengenal-terms--concepts-yang-membantu" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Untuk bisa melakukan operasi CRUD, kita juga harus mengenal beberapa terms dan concept yang lazim digunakan dalam pemrograman.</p>
+
+<h3 id="database"><span class="me-2">Database</span><a href="#database" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Pasti kata ini sudah sering didengar, tapi ya, seperti namanya, database adalah tempat sebuah program/aplikasi untuk menyimpan, membaca, memperbarui, menghapus data, CRUD!</p>
+
+<p>Database bisa berbentuk macam-macam. Kalau di dunia nyata, kita bisa lihat ada database dalam bentuk buku catatan, atau tabel di papan tulis, atau bahkan otak kalian menyimpan memori dan ingatan. Semuanya adalah database. Nah, tapi dalam komputer, database lazimnya bisa berbentuk semua <em>file</em>, atau <em>kumpulan file + program/server database</em>.</p>
+
+<p>Contoh, file sesimpel <em>.txt</em>, <em>.csv</em> atau <em>.json</em>, bisa kita jadikan database. Namun akan ada banyak pertimbangan yang membuat biasanya… database dalam bentuk file simple seperti itu tidak disarankan.</p>
+
+<h3 id="aplikasi"><span class="me-2">Aplikasi</span><a href="#aplikasi" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Aplikasi adalah sebuah <em>layer</em> yang digunakan oleh seorang <em>user</em>, untuk berinteraksi dengan sebuah <em>servis</em>. Nah, <em>servis</em> ini bisa jadi menggunakan database, sehingga secara esensi, sebuah <em>user</em> itu juga berinteraksi dengan <em>database</em> (seperti contoh skenario marketplace di atas!)</p>
+
+<h2 id="changelog"><span class="me-2">Changelog</span><a href="#changelog" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="2023-12-20"><span class="me-2">2023-12-20</span><a href="#2023-12-20" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li>tambah cerita tentang database, dan aplikasi
+    <h3 id="2023-12-19"><span class="me-2">2023-12-19</span><a href="#2023-12-19" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
   <li>added 3 simple exercises. Todo: example implementation</li>
-  <li>mula8 cerita singkat untuk CRUD</li>
+  <li>mulai cerita singkat untuk CRUD</li>
 </ul>
 
   </div>

@@ -78,4 +78,4 @@ kata = "luqman"
 
 ## Changelog
 ### 2023-12-19
-- 
+- added 3 simple exercises. Todo: example implementation

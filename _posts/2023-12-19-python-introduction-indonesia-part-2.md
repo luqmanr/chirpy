@@ -36,7 +36,7 @@ b = 30
 
 ### 2. penjumlahan berturut
 <p>Question: </p>
-<p>Buatlah sebuah program yang akan terus-menerus beriterasi di 10 bilangan pertama (dimulai dari 0), dan di setiap iterasi, `print` hasil angka iterasi dengan angka iterasi sebelumnya
+<p>Buatlah sebuah program yang akan terus-menerus beriterasi di 10 bilangan pertama (dimulai dari 0), dan di setiap iterasi, `print` hasil angka iterasi dengan angka iterasi sebelumnya</p>
 
 <p>Contoh hasil: </p>
 

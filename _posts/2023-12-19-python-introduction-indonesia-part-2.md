@@ -90,3 +90,4 @@ Katakan kita membuka aplikasi marketplace untuk berjualan. Pertama kita pasti di
 ## Changelog
 ### 2023-12-19
 - added 3 simple exercises. Todo: example implementation
+- mula8 cerita singkat untuk CRUD

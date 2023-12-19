@@ -85,7 +85,36 @@ Untuk itu, kita kenali konsep *CRUD*, _Create Read Update Delete_. CRUD secara e
 
 Katakan kita membuka aplikasi marketplace untuk berjualan. Pertama kita pasti diminta untuk membuat sebuah akun. Lalu setelah itu, kita akan login, dan bisa memasukkan data barang yang akan dijual. Tapi ternyata setelah memasukkan data barang, ada data yang salah, misalkan jumlah stok atau deskripsi yang salah, sehingga kita melakukan perubahan. Dan setelah stok habis, kita berhenti berjualan barang tersebut, sehingga kita menghapus listing barang itu dari marketplace.
 
+Kalau kita lihat skenario di atas, kita bisa secara general, mengkategorikan case di atas menjadi CRUD
+
+### Create
+- Membuat akun
+- membuat daftar produk baru
+### Read
+- Login ke marketplace
+- menampilkan daftar produk
+### Update
+- Mengubah data produk
+### Delete
+- Menghapus daftar produk
+
+## Mengenal Terms & Concepts Yang Membantu
+
+Untuk bisa melakukan operasi CRUD, kita juga harus mengenal beberapa terms dan concept yang lazim digunakan dalam pemrograman.
+
+### Database
+
+Pasti kata ini sudah sering didengar, tapi ya, seperti namanya, database adalah tempat sebuah program/aplikasi untuk menyimpan, membaca, memperbarui, menghapus data, CRUD!
+
+Database bisa berbentuk macam-macam. Kalau di dunia nyata, kita bisa lihat ada database dalam bentuk buku catatan, atau tabel di papan tulis, atau bahkan otak kalian menyimpan memori dan ingatan. Semuanya adalah database. Nah, tapi dalam komputer, database lazimnya bisa berbentuk semua _file_, atau _kumpulan file + program/server database_.
+
+Contoh, file sesimpel _.txt_, _.csv_ atau _.json_, bisa kita jadikan database. Namun akan ada banyak pertimbangan yang membuat biasanya... database dalam bentuk file simple seperti itu tidak disarankan.
+
+### Aplikasi
+
+Aplikasi adalah sebuah _layer_ yang digunakan oleh seorang _user_, untuk berinteraksi dengan sebuah _servis_. Nah, _servis_ ini bisa jadi menggunakan database, sehingga secara esensi, sebuah _user_ itu juga berinteraksi dengan _database_ (seperti contoh skenario marketplace di atas!)
+
 ## Changelog
 ### 2023-12-19
 - added 3 simple exercises. Todo: example implementation
-- mula8 cerita singkat untuk CRUD
+- mulai cerita singkat untuk CRUD

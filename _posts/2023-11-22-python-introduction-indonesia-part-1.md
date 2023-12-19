@@ -6,6 +6,7 @@ updated: "2023-11-28"
 ---
 # NOTE
 tutorial ini masih akan diupdate, karena belum lengkap 😁
+[Part 2]({% link _posts/2023-12-19-python-introduction-indonesia-part-2.md %})
 
 ## Pre-requisites
 1. Install python di komputer. Klik link berikut untuk tutorialnya

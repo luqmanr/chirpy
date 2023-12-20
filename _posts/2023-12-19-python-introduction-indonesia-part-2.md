@@ -38,7 +38,7 @@ b = 30
 
 <summary>SPOILER: Contoh Jawaban</summary>
 
-<p>
+{% highlight python %}
 
 def check(x, y):
     z = x*y
@@ -60,7 +60,7 @@ a = 50
 b = 60
 check(a, b)
 
-</p>
+{% endhighlight %}
 
 </details>
 

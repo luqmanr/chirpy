@@ -43,8 +43,10 @@ b = 30
 def check(x, y):
     z = x*y
     v = x+y
-    if z <= 1000:
+    if z <= 500:
         print(z)
+    elif z <= 1000 and z > 500:
+        print(z/v) 
     else:
         print(v)
 

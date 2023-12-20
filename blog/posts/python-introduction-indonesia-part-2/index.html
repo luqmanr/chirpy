@@ -48,7 +48,7 @@
 <meta property="twitter:title" content="Python Introduction - Indonesia - Part 2" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-20T11:23:44+07:00","datePublished":"2023-12-19T00:00:00+07:00","description":"Previous Part Part 1","headline":"Python Introduction - Indonesia - Part 2","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"},"url":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-20T11:27:39+07:00","datePublished":"2023-12-19T00:00:00+07:00","description":"Previous Part Part 1","headline":"Python Introduction - Indonesia - Part 2","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"},"url":"https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -706,7 +706,7 @@
 
 <time
   
-  data-ts="1703046224"
+  data-ts="1703046459"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -755,7 +755,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="765 words"
+  title="767 words"
 >
   <em>4 min</em> read</span>
 
@@ -812,27 +812,31 @@ b = 30
 
 <summary>SPOILER: Contoh Jawaban</summary>
 
+<p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="n">z</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">y</span>
-    <span class="n">v</span> <span class="o">=</span> <span class="n">x</span><span class="o">+</span><span class="n">y</span>
-    <span class="k">if</span> <span class="n">z</span> <span class="o">&lt;=</span> <span class="mi">500</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="n">z</span> <span class="o">&lt;=</span> <span class="mi">1000</span> <span class="ow">and</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">500</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="n">z</span><span class="o">/</span><span class="n">v</span><span class="p">)</span> 
-    <span class="k">else</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+```python
+def check(x, y):
+    z = x*y
+    v = x+y
+    if z &lt;= 500:
+        print(z)
+    elif z &lt;= 1000 and z &gt; 500:
+        print(z/v) 
+    else:
+        print(v)
 
-<span class="c1"># case 1
-</span><span class="n">a</span> <span class="o">=</span> <span class="mi">30</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mi">20</span>
-<span class="nf">check</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+# case 1
+a = 30
+b = 20
+check(a, b)
 
-<span class="c1"># case 2
-</span><span class="n">a</span> <span class="o">=</span> <span class="mi">50</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mi">60</span>
-<span class="nf">check</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span></code></pre></figure>
+# case 2
+a = 50
+b = 60
+check(a, b)
+```
 
+</p>
 
 </details>
 

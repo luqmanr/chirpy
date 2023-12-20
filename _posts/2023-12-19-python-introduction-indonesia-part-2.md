@@ -34,6 +34,29 @@ b = 30
 >> 70
 ```
 
+<details>
+<summary>SPOILER: Contoh Jawaban</summary>
+
+```python
+def check(x, y):
+    if (x * y) <= 1000:
+        print(x * y)
+    else:
+        print(x + y)
+
+# case 1
+a = 30
+b = 20
+check(a, b)
+
+# case 2
+a = 50
+b = 60
+check(a, b)
+```
+
+</details>
+
 ### 2. penjumlahan berturut
 <p>Question: </p>
 <p>Buatlah sebuah program yang akan terus-menerus beriterasi di 10 bilangan pertama (dimulai dari 0), dan di setiap iterasi, `print` hasil angka iterasi dengan angka iterasi sebelumnya</p>
@@ -121,6 +144,7 @@ _Aplication Programming Interface_ adalah sebuah mekanisme cara menghubungkan du
 Pada bagian di bawah ini, kita akan coba mengimplementasikan sebuah 
 
 ## Changelog
+
 ### 2023-12-20
 - tambah cerita tentang database, dan aplikasi
 ### 2023-12-19

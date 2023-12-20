@@ -38,7 +38,7 @@ b = 30
 
 <summary>SPOILER: Contoh Jawaban</summary>
 
-{% highlight python %}
+```python
 def check(x, y):
     if (x * y) <= 1000:
         print(x * y)
@@ -54,7 +54,7 @@ check(a, b)
 a = 50
 b = 60
 check(a, b)
-{% endhighlight %}
+```
 
 </details>
 

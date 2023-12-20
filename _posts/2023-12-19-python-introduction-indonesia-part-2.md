@@ -112,7 +112,13 @@ Contoh, file sesimpel _.txt_, _.csv_ atau _.json_, bisa kita jadikan database. N
 
 ### Aplikasi
 
-Aplikasi adalah sebuah _layer_ yang digunakan oleh seorang _user_, untuk berinteraksi dengan sebuah _servis_. Nah, _servis_ ini bisa jadi menggunakan database, sehingga secara esensi, sebuah _user_ itu juga berinteraksi dengan _database_ (seperti contoh skenario marketplace di atas!)
+Aplikasi adalah sebuah _layer_ yang digunakan oleh seorang _user_, untuk berinteraksi dengan sebuah _servis_. Nah, _servis_ ini bisa jadi menggunakan database, sehingga secara esensi, sebuah _user_ itu juga berinteraksi dengan _database_ (seperti contoh skenario marketplace di atas!). Lazimnya _user_ mengenal _Frontend_ sebagai aplikasi, karena ini bagian yang berinteraksi langsung dengan _user_. Sedangkan _Backend_ adalah bagian aplikasi yang hidupnya di _server/cloud_, yang _user_ tidak akan pernah langsung sentuh, dan _Database_ adalah salah satu komponen dari _Backend_. Dua bagian inilah, _Frontend_ & _Backend_ yang membuat sebuah aplikasi sebagai satu keutuhan.
+
+### API
+_Aplication Programming Interface_ adalah sebuah mekanisme cara menghubungkan dua atau lebih komponan program, untuk saling berbicara. Sebagai contoh yang paling sederhana, ketika kita membuka sebuah situs lewat _Browser_, kemungkinan besar, _Browser_ kita akan memanggil berbagai macam _API_ dari aplikasi atau program lain yang dibutuhkan oleh situs tersebut. Misalkan kita mau menonton video dari [YouTube](https://www.youtube.com), _browser_ kita akan memanggil _video API_ milik YouTube untuk membuffer/stream video dari _backend_ atau _database_ YouTube.
+
+### Exercise!
+Pada bagian di bawah ini, kita akan coba mengimplementasikan sebuah 
 
 ## Changelog
 ### 2023-12-20

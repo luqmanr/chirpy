@@ -39,11 +39,14 @@ b = 30
 <summary>SPOILER: Contoh Jawaban</summary>
 
 {% highlight python %}
+
 def check(x, y):
-    if (x * y) <= 1000:
-        print(x * y)
+    z = x*y
+    v = x+y
+    if z <= 1000:
+        print(z)
     else:
-        print(x + y)
+        print(v)
 
 # case 1
 a = 30
@@ -54,6 +57,7 @@ check(a, b)
 a = 50
 b = 60
 check(a, b)
+
 {% endhighlight %}
 
 </details>

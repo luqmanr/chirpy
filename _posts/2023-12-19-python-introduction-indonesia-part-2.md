@@ -40,7 +40,6 @@ b = 30
 
 <p>
 
-~~~python
 def check(x, y):
     z = x*y
     v = x+y
@@ -60,7 +59,6 @@ check(a, b)
 a = 50
 b = 60
 check(a, b)
-~~~
 
 </p>
 

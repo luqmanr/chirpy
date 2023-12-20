@@ -35,6 +35,7 @@ b = 30
 ```
 
 <details>
+
 <summary>SPOILER: Contoh Jawaban</summary>
 
 ```python

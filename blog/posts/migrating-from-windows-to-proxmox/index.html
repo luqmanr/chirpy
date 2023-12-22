@@ -41,8 +41,8 @@
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Migrating From Windows To Proxmox" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="2023-16-12 I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it)." />
-<meta property="og:description" content="2023-16-12 I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it)." />
+<meta name="description" content="2023-12-22 Tried installing a new GPU, GTX 1050 Ti to the server. And I needed to change the order of the NIC in the PCIE slot (because it won’t fit two GPUS in the configuration before). But turns out, proxmox wouldn’t boot. It might be because I have a few VMs automatically run at startup, and I still had the current GPU passed-through to a guest VM. Maybe should turn those off first, try changing the PCIE device order, and then boot again." />
+<meta property="og:description" content="2023-12-22 Tried installing a new GPU, GTX 1050 Ti to the server. And I needed to change the order of the NIC in the PCIE slot (because it won’t fit two GPUS in the configuration before). But turns out, proxmox wouldn’t boot. It might be because I have a few VMs automatically run at startup, and I still had the current GPU passed-through to a guest VM. Maybe should turn those off first, try changing the PCIE device order, and then boot again." />
 <link rel="canonical" href="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" />
 <meta property="og:url" content="https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/" />
 <meta property="og:site_name" content="luqmanr’s blog" />
@@ -54,7 +54,7 @@
 <meta property="twitter:title" content="Migrating From Windows To Proxmox" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-16T11:29:19+07:00","datePublished":"2023-12-12T00:00:00+07:00","description":"2023-16-12 I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).","headline":"Migrating From Windows To Proxmox","image":"https://images.spiceworks.com/wp-content/uploads/2023/01/03121747/Hypervisor-Functions.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"},"url":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-16T11:29:19+07:00","datePublished":"2023-12-12T00:00:00+07:00","description":"2023-12-22 Tried installing a new GPU, GTX 1050 Ti to the server. And I needed to change the order of the NIC in the PCIE slot (because it won’t fit two GPUS in the configuration before). But turns out, proxmox wouldn’t boot. It might be because I have a few VMs automatically run at startup, and I still had the current GPU passed-through to a guest VM. Maybe should turn those off first, try changing the PCIE device order, and then boot again.","headline":"Migrating From Windows To Proxmox","image":"https://images.spiceworks.com/wp-content/uploads/2023/01/03121747/Hypervisor-Functions.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"},"url":"https://discover.luqmanr.xyz/blog/posts/migrating-from-windows-to-proxmox/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -581,6 +581,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -596,6 +607,17 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -741,7 +763,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="374 words"
+  title="458 words"
 >
   <em>2 min</em> read</span>
 
@@ -752,7 +774,10 @@
   </header>
 
   <div class="content">
-    <h2 id="2023-16-12"><span class="me-2">2023-16-12</span><a href="#2023-16-12" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+    <h2 id="2023-12-22"><span class="me-2">2023-12-22</span><a href="#2023-12-22" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>Tried installing a new GPU, GTX 1050 Ti to the server. And I needed to change the order of the NIC in the PCIE slot (because it won’t fit two GPUS in the configuration before). But turns out, proxmox wouldn’t boot. It might be because I have a few VMs automatically run at startup, and I still had the current GPU passed-through to a guest VM. Maybe should turn those off first, try changing the PCIE device order, and then boot again.</p>
+
+<h2 id="2023-12-16"><span class="me-2">2023-12-16</span><a href="#2023-12-16" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).</p>
 
 <p>The first issue I had with proxmox was with networking (it’s still not perfect yet right now, but it works).
@@ -772,8 +797,11 @@ But I didn’t want to have to manually configure Mikrotik to have 2 entries of 
 <p>Obviously, there’s going to be some performance impact, and there’s sure to be problems (like the GPU partitioning or passthrough for gaming). But I want a new change, and want to explore these realms. Especially, I want to daily drive Linux instead of relying on Windows. So, here’s for change!</p>
 
 <h2 id="changelog"><span class="me-2">Changelog</span><a href="#changelog" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<h3 id="2023-16-12-1"><span class="me-2">2023-16-12</span><a href="#2023-16-12-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="2023-12-22-1"><span class="me-2">2023-12-22</span><a href="#2023-12-22-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
+  <li>
+    <h3 id="2023-12-16-1"><span class="me-2">2023-12-16</span><a href="#2023-12-16-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
   <li>sluggishly wrote things that came to mind, mostly about networking
     <h3 id="2023-12-12-1"><span class="me-2">2023-12-12</span><a href="#2023-12-12-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
   </li>

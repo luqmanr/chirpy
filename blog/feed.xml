@@ -4,7 +4,7 @@
   <id>https://discover.luqmanr.xyz/blog/</id>
   <title>luqmanr's blog</title>
   <subtitle>luqmanr's blog consists of luqman's thoughts, and things he wants to share with the world.</subtitle>
-  <updated>2023-12-21T13:41:06+07:00</updated>
+  <updated>2023-12-22T09:25:30+07:00</updated>
   <author>
     <name>luqmanr</name>
     <uri>https://discover.luqmanr.xyz/blog/</uri>
@@ -99,11 +99,8 @@ b...
 
 
 
-      2023-16-12
-I’ve been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I’ve instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).
-
-The first issue I had with proxmox was with networking (it’s still not perfect yet right now, but it works).
-I struggled to setup the syste...
+      2023-12-22
+Tried installing a new GPU, GTX 1050 Ti to the server. And I needed to change the order of the NIC in the PCIE slot (because it won’t fit two GPUS in the configuration before). But turns out, proxmox wouldn’t boot. It might be because I have a few VMs automatically run at startup, and I still had the current GPU passed-through to a guest VM. Maybe should turn those off first, try cha...
     </summary>
   
 

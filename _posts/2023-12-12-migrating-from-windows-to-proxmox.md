@@ -5,7 +5,10 @@ tags: [computer, proxmox, linux, windows]
 image: 'https://images.spiceworks.com/wp-content/uploads/2023/01/03121747/Hypervisor-Functions.jpg'
 ---
 
-## 2023-16-12
+## 2023-12-22
+Tried installing a new GPU, GTX 1050 Ti to the server. And I needed to change the order of the NIC in the PCIE slot (because it won't fit two GPUS in the configuration before). But turns out, proxmox wouldn't boot. It might be because I have a few VMs automatically run at startup, and I still had the current GPU passed-through to a guest VM. Maybe should turn those off first, try changing the PCIE device order, and then boot again.
+
+## 2023-12-16
 I've been tinkering with proxmox for a week now! Since my new 2TB SSD arrived, I've instantly installed it on my PC, and the 1TB SSD currently in it still has the old Windows installation on it (so I can revert back to that if I ever needed it).
 
 The first issue I had with proxmox was with networking (it's still not perfect yet right now, but it works).
@@ -26,7 +29,9 @@ Obviously, there's going to be some performance impact, and there's sure to be p
 
 
 ## Changelog
-### 2023-16-12
+### 2023-12-22
+- 
+### 2023-12-16
 - sluggishly wrote things that came to mind, mostly about networking
 ### 2023-12-12
 - write what I'm doing for this post

@@ -1,7 +1,6 @@
 # Bundler cache
 .bundle
 vendor
-Gemfile.lock
 *Zone.Identifier
 
 # Jekyll cache

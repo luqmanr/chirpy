@@ -4,7 +4,7 @@
   <id>https://discover.luqmanr.xyz/blog/</id>
   <title>luqmanr's blog</title>
   <subtitle>luqmanr's blog consists of luqman's thoughts, and things he wants to share with the world.</subtitle>
-  <updated>2023-12-27T06:13:46+07:00</updated>
+  <updated>2024-01-02T20:07:02+07:00</updated>
   <author>
     <name>luqmanr</name>
     <uri>https://discover.luqmanr.xyz/blog/</uri>
@@ -13,7 +13,7 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="https://discover.luqmanr.xyz/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 luqmanr </rights>
+  <rights> © 2024 luqmanr </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -21,10 +21,60 @@
   
   <entry>
     <title>Python Introduction - Indonesia - Part 2</title>
+    <link href="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-3/" rel="alternate" type="text/html" title="Python Introduction - Indonesia - Part 2" />
+    <published>2023-12-19T00:00:00+07:00</published>
+  
+    <updated>2023-12-19T00:00:00+07:00</updated>
+  
+    <id>https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-3/</id>
+    <content src="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-3/" />
+    <author>
+      <name>luqmanr</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Previous Part
+Part 2
+
+Exercise!
+Seperti pada post sebelumnya, kita akan coba implementasikan sebuah UI + API + Database sederhana.
+Kita akan mengikuti tutorial berikut:
+How to Create a Basic CRUD API Using Python Flask
+
+Changelog
+
+2023-12-20
+
+  tambah cerita tentang database, dan aplikasi
+    2023-12-19
+  
+  added 3 simple exercises. Todo: example implementation
+  mulai cerita singkat untuk CRUD
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Python Introduction - Indonesia - Part 2</title>
     <link href="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/" rel="alternate" type="text/html" title="Python Introduction - Indonesia - Part 2" />
     <published>2023-12-19T00:00:00+07:00</published>
   
-    <updated>2023-12-20T11:36:56+07:00</updated>
+    <updated>2024-01-02T20:03:54+07:00</updated>
   
     <id>https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/</id>
     <content src="https://discover.luqmanr.xyz/blog/posts/python-introduction-indonesia-part-2/" />
@@ -47,6 +97,9 @@
       Previous Part
 Part 1
 
+Next Part
+Part 3
+
 Exercises
 Dalam post ini, saya akan kompilasikan beberapa coding exercises untuk belajar logic-logic sederhana
 
@@ -64,10 +117,7 @@ b = 30
 
 &amp;gt;&amp;gt; 600
 
-
-# Case 2
-a = 40
-b...
+...
     </summary>
   
 

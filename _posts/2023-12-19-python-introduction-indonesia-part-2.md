@@ -7,6 +7,9 @@ updated: "2023-11-28"
 # Previous Part
 [Part 1]({% link _posts/2023-11-22-python-tutorial.md %})
 
+# Next Part
+[Part 3]({% link _posts/2023-12-19-python-introduction-indonesia-part-3.md %})
+
 ## Exercises
 Dalam post ini, saya akan kompilasikan beberapa coding exercises untuk belajar logic-logic sederhana
 
@@ -148,7 +151,7 @@ Aplikasi adalah sebuah _layer_ yang digunakan oleh seorang _user_, untuk berinte
 _Aplication Programming Interface_ adalah sebuah mekanisme cara menghubungkan dua atau lebih komponan program, untuk saling berbicara. Sebagai contoh yang paling sederhana, ketika kita membuka sebuah situs lewat _Browser_, kemungkinan besar, _Browser_ kita akan memanggil berbagai macam _API_ dari aplikasi atau program lain yang dibutuhkan oleh situs tersebut. Misalkan kita mau menonton video dari [YouTube](https://www.youtube.com), _browser_ kita akan memanggil _video API_ milik YouTube untuk membuffer/stream video dari _backend_ atau _database_ YouTube.
 
 ### Exercise!
-Pada bagian di bawah ini, kita akan coba mengimplementasikan sebuah 
+Pada bagian di berikutnya, kita akan coba mengimplementasikan sebuah aplikasi penyimpanan data-data buku!
 
 ## Changelog
 

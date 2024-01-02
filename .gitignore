@@ -24,3 +24,6 @@ assets/js/dist
 # env
 .env
 
+# python
+venv
+__pycache__

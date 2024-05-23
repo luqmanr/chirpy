@@ -8,8 +8,8 @@ When I was still dating Sheila, on August 2023 the tickets for DPR Concert went 
 
 Skip to 6th December, at the concert. It was a while since I watched a concert, and the atmosphere was very cool! It was our first concert together, and was a great new experience.
 
-<!-- ![](/assets/posts/2024-05-23/dpr-wegang.mp4) -->
+![](/assets/posts/2024-05-23/dpr-wegang.mp4)
 
-<video height='320' width='240' controls>
+<!-- <video height='320' width='240' controls>
     <source src='/assets/posts/2024-05-23/dpr-wegang.mp4' type='video/mp4'>
-</video>
+</video> -->

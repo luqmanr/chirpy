@@ -39,10 +39,8 @@ Obviously a 7-9 year old kid still lives in their own heads most of the time. So
 I really liked how the digivolution system is obscure. Jijimon, the _"guide"_ in this game, will from time to time give some cryptic advice on how to progress the game. But I was a kid! So I didn't really knew how to progress other than just blindly pushing ahead. But that sense of discovery, the fact that everytime my Digimon would stop dead in its tracks, not knowing if it would either Digivolve, or die, I still remember those feelings. And I would get so excited if my Digimon showed the _"growing"_ bubble, and then I'd be disappointed if I got the same Digimon again, or Numemon! (which I think sucked back then, but was required to progress the game from time to time, lol).
 
 
-
 2. How to play / mechanic
 3. What I liked
 4. What I don't like
 5. What made me love it
 6. My recommendation / closing thoughts -> should you play it, other games
-

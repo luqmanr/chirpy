@@ -18,8 +18,6 @@ Hardware needed for this project are:
 - PC / Laptop / Server w/ Docker installed
 - Network Router (You can use your home router or even your Phone in Hotspot mode)
 
-
-
 # Writing ESP8266 Code
 ## Reading From Ultrasonic Sensor
 ## Sending Data to MQTT Server
